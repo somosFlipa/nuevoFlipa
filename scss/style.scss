@@ -1,0 +1,14 @@
+@import 'nav';
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'responsive';
+
+body{
+    background-color: #000;
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+}
+button.primario:hover{
+    background: #C90066;
+}

@@ -671,11 +671,11 @@ footer .todo .derecha p {
   }
   main section.first .mobile .glider-contain .gliderDos .title {
     display: flex;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   main section.first .mobile .glider-contain .gliderDos .title img {
     width: 10px;
-    margin-top: -1em;
+    margin-top: 0em;
   }
   main section.first .mobile .glider-contain .gliderDos .title p {
     margin-top: 0;
@@ -689,7 +689,7 @@ footer .todo .derecha p {
     margin-top: 4px;
     line-height: 24px;
     font-weight: 400;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-bottom: 0;
   }
 

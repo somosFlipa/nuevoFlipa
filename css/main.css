@@ -796,12 +796,12 @@ footer .todo .derecha p {
   }
   main section.third .mobile .boton {
     width: 10px;
-    height: 10px;
+    height: 12px;
     border-radius: 100%;
     border: none;
     background: #b9b9b9;
-    margin-right: -8em;
-    margin-left: -8em;
+    margin-right: -9em;
+    margin-left: -9em;
   }
   main section.third .mobile #buttonUno {
     background-color: #f6007c;

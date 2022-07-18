@@ -315,30 +315,32 @@
             </div>
         </div>
             <div class="mobile">
-                    <div class="gliderTres">
-                        <div class="textoCarrousel">
 
-                            <p>CONTACTO</p>  
-                            <p>¡Queremos escucharte! Contanos cuáles son tus necesidades para poder asesorarte y pensar alternativas juntxs. Alineamos expectativas y trazamos objetivos adaptados a tu negocio.</p>                         
-                        </div>
-                        <div class="textoCarrousel">
+                        <div class="textosContain">
 
-                            <p> IDEACIÓN</p>
-                            <p>Te presentamos el plan en acción. Pero tranquilx, no es un plan definitivo: escuchamos tu feedback y revisamos conjuntamente el avance de manera periódica. Siempre podemos mejorar.</p>                         
+                            <div id="contenedorTextosCarruselUno">
+                                <div id="textoShow" >
+                                  <p>CONTACTO</p> 
+                                    <p class="txt">¡Queremos escucharte! Contanos cuáles son tus necesidades para poder asesorarte y pensar alternativas juntxs. Alineamos expectativas y trazamos objetivos adaptados a tu negocio.</p>
+                                    
+                                </div>
+                            </div>
+         
                         </div>
-                        <div class="textoCarrousel">
-
-                            <p>PLANIFICACIÓN</p>
-                            <p>Teniendo en cuenta la información recaudada en los pasos anteriores, llevamos a cabo el desarrollo del proyecto. Te presentamos el MVP: Mínimo Producto Viable.</p>                            
-                        </div>
-                        <div class="textoCarrousel">
-
-                            <p>PUESTA EN MARCHA</p>
-                            <p>Ahora sí: ejecutamos tu proyecto. Seguimos trabajando juntxs para evaluarlo y analizar mejoras. Sigamos creciendo como equipo!</p>                            
-                        </div>
+                        <div class="botones">
+                            <button class="boton" id="buttonUno"onclick="gliderMobileFunction(1, ' <p>CONTACTO</p> ¡Queremos escucharte! Contanos cuáles son tus necesidades para poder asesorarte y pensar alternativas juntxs. Alineamos expectativas y trazamos objetivos adaptados a tu negocio.' )"></button>
+                
+                            <button class="boton" id="buttonDos" onclick="gliderMobileFunction(2, '<p> IDEACIÓN</p> Te presentamos el plan en acción. Pero tranquilx, no es un plan definitivo: escuchamos tu feedback y revisamos conjuntamente el avance de manera periódica. Siempre podemos mejorar.')"></button>
+                
+                            <button class="boton" id="buttonTres"  onclick="gliderMobileFunction(3, '<p>PLANIFICACIÓN</p> Teniendo en cuenta la información recaudada en los pasos anteriores, llevamos a cabo el desarrollo del proyecto. Te presentamos el MVP: Mínimo Producto Viable.')"></button>
+                
+                            <button class="boton" id="buttonCuatro"  onclick="gliderMobileFunction(4, '<p>PUESTA EN MARCHA</p> Ahora sí: ejecutamos tu proyecto. Seguimos trabajando juntxs para evaluarlo y analizar mejoras. Sigamos creciendo como equipo!')"></button>
+                          </div>   
+                            </div>
                         
                     </div>
-                    <div id="dotsDos" class="glider-dotsDos"></div>
+                    <!-- <div class="gliderTres"></div>
+                    <div id="dotsDos" class="glider-dotsDos"></div> -->
             </div>
         </section>
         <!--  -->
@@ -430,7 +432,7 @@
     </footer>
 
     <script src="./glider.min.js"></script>
-    
+    <script src="./textosMobile.js"></script>
     <script src="glider.js"></script>
     <script src="./textos.js"></script>
     <script src="./gliderTextos.js"></script>

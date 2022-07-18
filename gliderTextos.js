@@ -1,13 +1,4 @@
 
-  // new Glider(document.querySelector('.gliderDos'), {
-  //   slidesToShow: 1,
-  //   dots: '#dots',
-  //   draggable: true,
-  //   arrows: {
-  //     prev: '.glider-prev',
-  //     next: '.glider-next'
-  //   }
-  // });
 
   new Glider(document.querySelector('.gliderDos'), {
     // Mobile-first defaults
@@ -42,15 +33,15 @@
       }
     ]
   });
-  new Glider(document.querySelector('.gliderTres'), {
-    slidesToShow: 1,
-    dots: '#dots',
-    draggable: true,
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-  });
+  // new Glider(document.querySelector('.gliderTres'), {
+  //   slidesToShow: 1,
+  //   dots: '#dots',
+  //   draggable: true,
+  //   arrows: {
+  //     prev: '.glider-prev',
+  //     next: '.glider-next'
+  //   }
+  // });
 
   new Glider(document.querySelector('.gliderFotos'), {
     slidesToShow: 3,

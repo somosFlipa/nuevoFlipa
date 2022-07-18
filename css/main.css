@@ -324,7 +324,7 @@ main section.fourth {
     height: 40px;
     background: #FFFFFF;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     color: #161616;
     border: none;
@@ -413,7 +413,7 @@ header {
     background: #F6007C;
     border-radius: 5px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     border: none;
     font-family: 'Oswald', sans-serif;
@@ -551,7 +551,7 @@ footer .todo {
           height: 30px;
           background: #F6007C;
           border-radius: 5px;
-          font-weight: 700;
+          font-weight: 500;
           font-size: 16px;
           color: #FFFFFF;
           border: none;
@@ -586,24 +586,39 @@ footer .todo {
               width: 10px; }
       main section.third .indexMainAboutWorkDescription {
         display: none; }
-      main section.third .mobile {
-        margin-top: 31px; }
-        main section.third .mobile .gliderTres .glider-track {
-          margin-left: 22px;
-          margin-top: -20px;
-          margin-bottom: 1em; }
-        main section.third .mobile .gliderTres .textoCarrousel p {
-          font-size: 16px;
-          color: #fff;
-          width: 330px;
-          margin-left: 0px; }
+      main section.third .mobile p {
+        color: #fff; }
+      main section.third .mobile .boton {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        border: none;
+        background: #b9b9b9; }
+      main section.third .mobile #buttonUno {
+        background-color: #f6007c; }
+      main section.third .mobile .botones {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1em;
+        position: sticky; }
+      main section.third .mobile #contenedorTextosCarruselUno {
+        width: 100%;
+        height: 182px; }
+      main section.third .mobile #textoShow {
+        width: 300px;
+        overflow-x: hidden;
+        margin-left: 1em;
+        color: #fff; }
+      main section.third .mobile .txt {
+        width: 100%;
+        color: #fff; }
     main section.fourth {
       background-color: #F6007C; }
       main section.fourth .contenedor {
         padding-top: 22px;
         margin-left: 20px;
         margin-right: 20px;
-        padding-bottom: 80px; }
+        padding-bottom: 30px; }
       main section.fourth .todo {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -622,23 +637,23 @@ footer .todo {
           color: #FFFFFF;
           margin-top: -15px;
           margin-left: 19px; }
-      main section.fourth form {
-        display: flex;
-        flex-direction: column;
-        color: #fff;
-        margin-left: 20px;
-        margin-right: 10px;
-        font-size: 16px;
-        line-height: 43px;
-        font-weight: 400; }
       main section.fourth .formulario {
         margin-top: 25px;
         padding-bottom: 30px;
         width: 336px;
         display: grid;
         justify-items: center;
-        margin-left: auto;
+        margin-left: 0px;
         margin-right: auto; }
+        main section.fourth .formulario form {
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          margin-left: 0px;
+          margin-right: 10px;
+          font-size: 16px;
+          line-height: 43px;
+          font-weight: 400; }
       main section.fourth textarea,
       main section.fourth input,
       main section.fourth select {
@@ -678,7 +693,7 @@ footer .todo {
         height: 28px;
         background: #FFFFFF;
         border-radius: 5px;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         color: #161616;
         border: none;
@@ -952,7 +967,7 @@ footer .todo {
         padding-top: 85px;
         margin-left: 50px;
         margin-right: 50px;
-        padding-bottom: 80px; }
+        padding-bottom: 50px; }
       main section.fourth .todo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1025,7 +1040,7 @@ footer .todo {
         height: 28px;
         background: #FFFFFF;
         border-radius: 5px;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         color: #161616;
         border: none;
@@ -1121,7 +1136,7 @@ footer .todo {
     header button {
       width: 295px;
       height: 40px;
-      font-weight: 700;
+      font-weight: 500;
       font-size: 24px;
       margin-left: 100px;
       font-family: 'Oswald', sans-serif; }
@@ -1329,7 +1344,7 @@ footer .todo {
         height: 40px;
         background: #FFFFFF;
         border-radius: 5px;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         color: #161616;
         border: none;

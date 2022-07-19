@@ -1176,7 +1176,7 @@ footer .todo {
     main .error404 .texto {
       width: 100%;
       top: 50vh;
-      height: 18%;
+      height: 20%;
       display: flex;
       text-align: start;
       place-content: center; }
@@ -1503,7 +1503,7 @@ footer .todo {
     main .error404 .texto {
       width: 100%;
       top: 50%;
-      height: 25%; }
+      height: 28%; }
       main .error404 .texto h3 {
         font-size: 128px;
         font-weight: 700;

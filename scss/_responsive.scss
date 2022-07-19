@@ -403,6 +403,35 @@
                 }
             }
         }
+        .error404{
+            .error {
+              display: flex;
+              .columna {
+                height: 286px;
+              }
+            }
+            .texto{
+              width: 100%;
+              top: 12%;
+              height: 5%;        
+              display: flex;
+              text-align: start;
+              place-content: center;
+              h3{
+                font-size: 32px;
+                font-weight: 700;
+                margin-top: 0em;
+              }
+              h6{
+                font-weight: 700;
+                line-height: 24px;
+                font-size: 93%;
+                width: 195px;
+                margin-top: 0.3em;
+                margin-left: 10px;
+              }
+            }
+          }
     }
     footer{
         .todo{
@@ -876,6 +905,37 @@
                 }
             }
         }
+        .error404{
+            .error {
+              display: flex;
+              .columna {
+                height: 783px;
+              }
+            }
+            .texto{
+              width: 100%;
+              top: 30%;
+              height: 12%;
+              display: flex;
+              text-align: start;
+              place-content: center;
+              h3{
+                font-size: 96px;
+                font-weight: 700;
+                margin-top: -0.1em;
+                
+              }
+              h6{
+                font-weight: 700;
+                line-height: 59px;
+                font-size: 40px;
+                width: 487px;
+                margin-top: 0.3em;
+                margin-left: 30px;
+              }
+            }
+          }
+
     }
     footer{
         .todo{
@@ -1314,6 +1374,32 @@
                 }
             }
         }
+        .error404{
+            .error {
+              display: flex;
+              .columna {
+                height: 1000px;
+              }
+            }
+            .texto{
+              width: 100%;
+              top: 40%;
+              height: 18vh;
+              h3{
+                font-size: 128px;
+                font-weight: 700;
+                margin-top: 0em;
+              }
+              h6{
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 95px;
+                width: 780px;
+                margin-top: 0em;
+                margin-left: 30px;
+              }
+            }
+          }
     }
 
 footer{

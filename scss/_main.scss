@@ -499,4 +499,59 @@ main{
         }
     }
 }
+.error404{
+  .error {
+    display: flex;
+    .columna {
+      width: 100vw;
+      height: 1200px;
+    }
+    .blanco {
+      background-color: #fff;
+    }
+    .amarillo {
+      background-color: #f9fb00;
+    }
+    .celeste {
+      background-color: #02feff;
+    }
+    .verde {
+      background-color: #01ff00;
+    }
+    .fucsia {
+      background-color: #fd00fb;
+    }
+    .rojo {
+      background-color: #fb0102;
+    }
+    .azul {
+      background-color: #0301fc;
+    }
+  }
+  .texto{
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    top: 40%;
+    height: 22%;
+    display: flex;
+    text-align: start;
+    place-content: center;
+    h3{
+      color: #fff;
+      font-size: 128px;
+      font-weight: 700;
+      margin-top: 0.2em;
+    }
+    h6{
+      color: #fff;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 95px;
+      width: 992px;
+      margin-top: 0.5em;
+      margin-left: 30px;
+    }
+  }
+}
 }

@@ -807,8 +807,8 @@ footer .todo {
         height: 286px; }
     main .error404 .texto {
       width: 100%;
-      top: 12%;
-      height: 5%;
+      top: 25%;
+      height: 10%;
       display: flex;
       text-align: start;
       place-content: center; }
@@ -1175,8 +1175,8 @@ footer .todo {
         height: 783px; }
     main .error404 .texto {
       width: 100%;
-      top: 30%;
-      height: 12%;
+      top: 50vh;
+      height: 18%;
       display: flex;
       text-align: start;
       place-content: center; }
@@ -1502,8 +1502,8 @@ footer .todo {
         height: 1000px; }
     main .error404 .texto {
       width: 100%;
-      top: 40%;
-      height: 18vh; }
+      top: 50%;
+      height: 25%; }
       main .error404 .texto h3 {
         font-size: 128px;
         font-weight: 700;

@@ -1,9 +1,9 @@
-let Name = document.querySelector('#nameForm')
-let Team = document.querySelector('#teamForm')
-let Mail = document.querySelector('#mailTo')
+let team = document.querySelector('#service').value
+
 let ButtonForm = document.getElementById('submit');
 let CheckboxForm = document.getElementById('cbox');
-let Conditions = document.querySelector("#Conditions");
+let Conditions = document.querySelector("#condition");
+
 
 window.addEventListener("load", function() {
     new Glider(document.querySelector(".glider"), {
@@ -17,27 +17,28 @@ window.addEventListener("load", function() {
     });
 });
 
+const btn = document.getElementById('button');
+console.log()
+document.getElementById('form')
+    .addEventListener('submit', function(event) {
+        event.preventDefault();
+        if (CheckboxForm.checked && team != "Selecciona") {
+            btn.value = 'Sending...';
 
-ButtonForm.addEventListener("click", function(event) {
-    event.preventDefault();
-});
+            const serviceID = 'default_service';
+            const templateID = 'template_6uvofny';
 
-function sendMail() {
-    if (CheckboxForm.checked) {
-        console.log(Mail.value);
-        let tempParms = {
-            from_name: Name.value,
-            to_name: Team.value,
-            mail: Mail.value,
-        };
-        emailjs.send("gmail", "template_flipa", tempParms).then(function(res) {
-            console.log("success", res.status);
-            ButtonForm.innerHTML = "Enviado!";
-            Conditions.innerHTML = " ";
-        });
-    } else {
-        Conditions.innerHTML =
-            "<p>tenes que aceptar los terminos y condiciones 😊</p>";
-        Conditions.style.color = "white";
-    }
-}
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    btn.value = 'Send Email';
+                    alert('Sent!');
+                }, (err) => {
+                    btn.value = 'Send Email';
+                    alert(JSON.stringify(err));
+                });
+
+        } else {
+            Conditions.innerHTML = "<p>Recorda selccionar una opcion y aceptar los terminos y condiciones 😊</p>";
+            Conditions.style.color = "white";
+        }
+    });

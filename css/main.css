@@ -3,467 +3,580 @@ nav {
   width: 100%;
   height: 100px;
   display: flex;
-  align-items: center; }
-  nav img {
-    margin-left: 150px; }
+  align-items: center;
+}
+nav img {
+  margin-left: 150px;
+}
 
 main section.first {
-  padding-bottom: 80px; }
-  main section.first .contenedor {
-    margin-top: 133px;
-    display: flex;
-    margin-left: 150px;
-    margin-right: 150px; }
-    main section.first .contenedor .todo {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px; }
-      main section.first .contenedor .todo .title {
-        display: flex;
-        color: #fff;
-        font-weight: 700;
-        font-size: 64px;
-        width: 420px; }
-        main section.first .contenedor .todo .title img {
-          margin-top: -25%; }
-        main section.first .contenedor .todo .title h3 {
-          margin-left: 10px; }
-      main section.first .contenedor .todo .sets {
-        margin-top: 3.5em; }
-        main section.first .contenedor .todo .sets .titleDescription {
-          color: #fff;
-          width: 750px;
-          padding-right: 0px; }
-          main section.first .contenedor .todo .sets .titleDescription a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 16px;
-            font-weight: 500; }
-          main section.first .contenedor .todo .sets .titleDescription ul {
-            display: flex;
-            margin-left: -2.5em;
-            justify-content: space-between; }
-            main section.first .contenedor .todo .sets .titleDescription ul li {
-              text-decoration: none;
-              list-style: none;
-              margin-right: 30px;
-              position: relative;
-              display: block; }
-              main section.first .contenedor .todo .sets .titleDescription ul li a {
-                position: relative;
-                display: flex;
-                text-decoration: none;
-                color: #fff;
-                font-weight: 800;
-                font-size: 24px; }
-                main section.first .contenedor .todo .sets .titleDescription ul li a img {
-                  margin-right: 7px;
-                  width: 10px; }
-                main section.first .contenedor .todo .sets .titleDescription ul li a img.gotaPuntoDos {
-                  display: none; }
-                main section.first .contenedor .todo .sets .titleDescription ul li a img.gotaPuntoTres {
-                  display: none; }
-          main section.first .contenedor .todo .sets .titleDescription #textsContainerMainTexts p.txt {
-            width: 933px;
-            font-size: 20px; }
-  main section.first .informacion {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 167px;
-    grid-row-gap: 0px;
-    margin-left: 300px; }
-    main section.first .informacion .data {
-      width: 320px;
-      position: relative; }
-      main section.first .informacion .data h5 {
-        color: #fff;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: -50px; }
-      main section.first .informacion .data h6 {
-        color: #f6007c;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 36px; }
-      main section.first .informacion .data p {
-        color: #fff;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        margin-top: -2em; }
-  main section.first .nosotros {
-    display: none; }
-  main section.first .servicios {
-    display: none; }
+  padding-bottom: 80px;
+}
+main section.first .contenedor {
+  margin-top: 133px;
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+main section.first .contenedor .todo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+main section.first .contenedor .todo .title {
+  display: flex;
+  color: #fff;
+  font-weight: 700;
+  font-size: 64px;
+  width: 420px;
+}
+main section.first .contenedor .todo .title img {
+  margin-top: -25%;
+}
+main section.first .contenedor .todo .title h3 {
+  margin-left: 10px;
+}
+main section.first .contenedor .todo .sets {
+  margin-top: 3.5em;
+}
+main section.first .contenedor .todo .sets .titleDescription {
+  color: #fff;
+  width: 750px;
+  padding-right: 0px;
+}
+main section.first .contenedor .todo .sets .titleDescription a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+main section.first .contenedor .todo .sets .titleDescription ul {
+  display: flex;
+  margin-left: -2.5em;
+  justify-content: space-between;
+}
+main section.first .contenedor .todo .sets .titleDescription ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 30px;
+  position: relative;
+  display: block;
+}
+main section.first .contenedor .todo .sets .titleDescription ul li a {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+}
+main section.first .contenedor .todo .sets .titleDescription ul li a img {
+  margin-right: 7px;
+  width: 10px;
+}
+main
+  section.first
+  .contenedor
+  .todo
+  .sets
+  .titleDescription
+  ul
+  li
+  a
+  img.gotaPuntoDos {
+  display: none;
+}
+main
+  section.first
+  .contenedor
+  .todo
+  .sets
+  .titleDescription
+  ul
+  li
+  a
+  img.gotaPuntoTres {
+  display: none;
+}
+main
+  section.first
+  .contenedor
+  .todo
+  .sets
+  .titleDescription
+  #textsContainerMainTexts
+  p.txt {
+  width: 933px;
+  font-size: 20px;
+}
+main section.first .informacion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 167px;
+  grid-row-gap: 0px;
+  margin-left: 300px;
+}
+main section.first .informacion .data {
+  width: 320px;
+  position: relative;
+}
+main section.first .informacion .data h5 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: -50px;
+}
+main section.first .informacion .data h6 {
+  color: #f6007c;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+main section.first .informacion .data p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: -2em;
+}
+main section.first .nosotros {
+  display: none;
+}
+main section.first .servicios {
+  display: none;
+}
 
 main section.second {
-  background-color: #fff; }
-  main section.second .contenedor {
-    padding-top: 150px;
-    margin-left: 150px;
-    margin-right: 150px; }
-    main section.second .contenedor .todo {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px; }
-      main section.second .contenedor .todo .sets {
-        margin-top: 0; }
-      main section.second .contenedor .todo .title {
-        display: flex;
-        width: 445px; }
-        main section.second .contenedor .todo .title h3 {
-          font-weight: 700;
-          font-size: 72px;
-          color: #000;
-          margin-left: 7px;
-          margin-top: 0; }
-        main section.second .contenedor .todo .title img {
-          margin-top: -177px;
-          width: 34px; }
-  main section.second .secondDescription {
-    padding-right: 100px;
-    color: #000;
-    width: 750px; }
-    main section.second .secondDescription a {
-      text-decoration: none;
-      color: #000;
-      font-size: 24px;
-      font-weight: 500; }
-    main section.second .secondDescription ul {
-      display: flex;
-      margin-left: -2.5em;
-      justify-content: space-between;
-      width: 912px; }
-      main section.second .secondDescription ul li {
-        text-decoration: none;
-        list-style: none;
-        margin-right: 30px;
-        font-weight: bold;
-        position: relative;
-        display: block; }
-        main section.second .secondDescription ul li a {
-          position: relative;
-          display: flex;
-          text-decoration: none;
-          color: #161616;
-          font-weight: 800; }
-          main section.second .secondDescription ul li a img {
-            margin-right: 7px;
-            width: 10px; }
-          main section.second .secondDescription ul li a .gotaPuntoDosS {
-            display: none; }
-          main section.second .secondDescription ul li a .gotaPuntoTresS {
-            display: none; }
-          main section.second .secondDescription ul li a .gotaPuntoCuatroS {
-            display: none; }
-    main section.second .secondDescription #textsContainerPorfolio p.txt {
-      width: 931px;
-      font-size: 20px; }
-  main section.second .glinder-contain {
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 70px; }
-    main section.second .glinder-contain .gliderFotos .glider-track {
-      width: 4780px !important;
-      margin-left: 30px;
-      margin-top: 0;
-      margin-right: 0px; }
-      main section.second .glinder-contain .gliderFotos .glider-track .imgCarrouselDiv {
-        margin-right: 20px;
-        margin-left: 50px;
-        height: auto;
-        width: 500px; }
-      main section.second .glinder-contain .gliderFotos .glider-track a {
-        width: 600px !important;
-        margin-right: 450px; }
-  main section.second .glider-dot.active {
-    background-color: #f6007c; }
+  background-color: #fff;
+}
+main section.second .contenedor {
+  padding-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+main section.second .contenedor .todo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+main section.second .contenedor .todo .sets {
+  margin-top: 0;
+}
+main section.second .contenedor .todo .title {
+  display: flex;
+  width: 445px;
+}
+main section.second .contenedor .todo .title h3 {
+  font-weight: 700;
+  font-size: 72px;
+  color: #000;
+  margin-left: 7px;
+  margin-top: 0;
+}
+main section.second .contenedor .todo .title img {
+  margin-top: -177px;
+  width: 34px;
+}
+main section.second .secondDescription {
+  padding-right: 100px;
+  color: #000;
+  width: 750px;
+}
+main section.second .secondDescription a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+}
+main section.second .secondDescription ul {
+  display: flex;
+  margin-left: -2.5em;
+  justify-content: space-between;
+  width: 912px;
+}
+main section.second .secondDescription ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 30px;
+  font-weight: bold;
+  position: relative;
+  display: block;
+}
+main section.second .secondDescription ul li a {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  color: #161616;
+  font-weight: 800;
+}
+main section.second .secondDescription ul li a img {
+  margin-right: 7px;
+  width: 10px;
+}
+main section.second .secondDescription ul li a .gotaPuntoDosS {
+  display: none;
+}
+main section.second .secondDescription ul li a .gotaPuntoTresS {
+  display: none;
+}
+main section.second .secondDescription ul li a .gotaPuntoCuatroS {
+  display: none;
+}
+main section.second .secondDescription #textsContainerPorfolio p.txt {
+  width: 931px;
+  font-size: 20px;
+}
+main section.second .glinder-contain {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 70px;
+}
+main section.second .glinder-contain .gliderFotos .glider-track {
+  width: 4780px !important;
+  margin-left: 30px;
+  margin-top: 0;
+  margin-right: 0px;
+}
+main
+  section.second
+  .glinder-contain
+  .gliderFotos
+  .glider-track
+  .imgCarrouselDiv {
+  margin-right: 20px;
+  margin-left: 50px;
+  height: auto;
+  width: 500px;
+}
+main section.second .glinder-contain .gliderFotos .glider-track a {
+  width: 600px !important;
+  margin-right: 450px;
+}
+main section.second .glider-dot.active {
+  background-color: #f6007c;
+}
 
 main section.third .contenedor {
   margin-top: 100px;
   margin-left: 150px;
   margin-right: 150px;
-  margin-bottom: 100px; }
-  main section.third .contenedor .todo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; }
-    main section.third .contenedor .todo .title {
-      display: flex;
-      width: 445px; }
-      main section.third .contenedor .todo .title h3 {
-        font-weight: 700;
-        font-size: 72px;
-        color: #fff;
-        margin-left: 7px; }
-      main section.third .contenedor .todo .title img {
-        margin-top: -88px; }
-    main section.third .contenedor .todo .indexMainAboutWorkDescription {
-      padding-right: 0px;
-      width: 931px; }
-      main section.third .contenedor .todo .indexMainAboutWorkDescription p.txt {
-        color: #fff;
-        font-size: 20px;
-        width: 931px; }
-      main section.third .contenedor .todo .indexMainAboutWorkDescription a {
-        text-decoration: none;
-        color: #FFF;
-        font-size: 24px;
-        font-weight: 500; }
-      main section.third .contenedor .todo .indexMainAboutWorkDescription ul {
-        display: flex;
-        margin-top: 4.5em;
-        justify-content: space-between;
-        margin-left: -2.5em; }
-        main section.third .contenedor .todo .indexMainAboutWorkDescription ul li {
-          text-decoration: none;
-          list-style: none;
-          margin-right: 30px;
-          font-weight: bold;
-          position: relative;
-          display: block; }
-          main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a {
-            position: relative;
-            display: flex;
-            text-decoration: none;
-            color: #fff;
-            font-weight: 800; }
-            main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a img {
-              margin-right: 7px;
-              width: 10px; }
-            main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a .gotaPuntoDosT {
-              display: none; }
-            main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a .gotaPuntoTresT {
-              display: none; }
-            main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a .gotaPuntoCuatroT {
-              display: none; }
+  margin-bottom: 100px;
+}
+main section.third .contenedor .todo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+main section.third .contenedor .todo .title {
+  display: flex;
+  width: 445px;
+}
+main section.third .contenedor .todo .title h3 {
+  font-weight: 700;
+  font-size: 72px;
+  color: #fff;
+  margin-left: 7px;
+}
+main section.third .contenedor .todo .title img {
+  margin-top: -88px;
+}
+main section.third .contenedor .todo .indexMainAboutWorkDescription {
+  padding-right: 0px;
+  width: 931px;
+}
+main section.third .contenedor .todo .indexMainAboutWorkDescription p.txt {
+  color: #fff;
+  font-size: 20px;
+  width: 931px;
+}
+main section.third .contenedor .todo .indexMainAboutWorkDescription a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+main section.third .contenedor .todo .indexMainAboutWorkDescription ul {
+  display: flex;
+  margin-top: 4.5em;
+  justify-content: space-between;
+  margin-left: -2.5em;
+}
+main section.third .contenedor .todo .indexMainAboutWorkDescription ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 30px;
+  font-weight: bold;
+  position: relative;
+  display: block;
+}
+main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+}
+main
+  section.third
+  .contenedor
+  .todo
+  .indexMainAboutWorkDescription
+  ul
+  li
+  a
+  img {
+  margin-right: 7px;
+  width: 10px;
+}
+main
+  section.third
+  .contenedor
+  .todo
+  .indexMainAboutWorkDescription
+  ul
+  li
+  a
+  .gotaPuntoDosT {
+  display: none;
+}
+main
+  section.third
+  .contenedor
+  .todo
+  .indexMainAboutWorkDescription
+  ul
+  li
+  a
+  .gotaPuntoTresT {
+  display: none;
+}
+main
+  section.third
+  .contenedor
+  .todo
+  .indexMainAboutWorkDescription
+  ul
+  li
+  a
+  .gotaPuntoCuatroT {
+  display: none;
+}
 
 main section.fourth {
-  background-color: #F6007C; }
-  main section.fourth .contenedor {
-    padding-top: 95px;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-bottom: 80px; }
-  main section.fourth .todo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; }
-  main section.fourth .title {
-    width: 306px; }
-    main section.fourth .title img {
-      width: 34px;
-      height: auto;
-      margin-top: 1em; }
-    main section.fourth .title h3 {
-      font-weight: 700;
-      font-size: 72px;
-      color: #FFFFFF;
-      margin-top: -1.1em;
-      margin-left: 38px; }
-  main section.fourth .formulario {
-    margin-top: 0;
-    padding-bottom: 30px;
-    margin-left: -8em;
-    width: 715px; }
-    main section.fourth .formulario form {
-      display: flex;
-      flex-direction: column;
-      color: #fff;
-      margin-left: 20px;
-      margin-right: 10px;
-      font-size: 16px;
-      line-height: 43px;
-      font-weight: 400; }
-  main section.fourth textarea,
-  main section.fourth input,
-  main section.fourth select {
-    resize: none;
-    height: 21px;
-    background-color: #f6007c;
-    border-color: #000;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom-width: thin;
-    text-align: center; }
-  main section.fourth option {
-    font-size: 14px; }
-  main section.fourth input:focus, main section.fourth textarea:focus {
-    text-align: start; }
-  main section.fourth ::placeholder {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Oswald', sans-serif; }
-  main section.fourth select {
-    background: #161616;
-    color: #fff;
-    font-family: 'Oswald', sans-serif;
-    border-radius: 5px;
-    width: 135px;
-    text-align: start;
-    padding-left: 0.5em;
-    margin-left: 5px; }
-  main section.fourth select:hover {
-    background: #161616;
-    font-family: 'Oswald', sans-serif;
-    border-radius: 5px; }
-  main section.fourth button {
-    width: 295px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #161616;
-    border: none;
-    margin-top: 10px;
-    font-family: 'Oswald', sans-serif; }
-  main section.fourth button:hover {
-    background-color: #000;
-    color: #fff; }
-  main section.fourth .cbox {
-    display: flex; }
-    main section.fourth .cbox label {
-      margin-top: 1.1em; }
-    main section.fourth .cbox p {
-      margin-left: 12px;
-      font-weight: 300;
-      font-size: 14px; }
-  main section.fourth #Conditions p {
-    margin-left: 20px; }
+  background-color: #f6007c;
+}
+main section.fourth .contenedor {
+  padding-top: 95px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-bottom: 80px;
+}
+main section.fourth .todo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+main section.fourth .title {
+  width: 306px;
+}
+main section.fourth .title img {
+  width: 34px;
+  height: auto;
+  margin-top: 1em;
+}
+main section.fourth .title h3 {
+  font-weight: 700;
+  font-size: 72px;
+  color: #ffffff;
+  margin-top: -1em;
+  margin-left: 38px;
+}
+main section.fourth .formulario {
+  margin-top: 0;
+  padding-bottom: 30px;
+  margin-left: -8em;
+  width: 715px;
+}
+main section.fourth .formulario form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 43px;
+  font-weight: 400;
+}
+main section.fourth textarea,
+main section.fourth input,
+main section.fourth select {
+  resize: none;
+  height: 21px;
+  background-color: #f6007c;
+  border-color: #000;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-width: thin;
+  text-align: center;
+}
+main section.fourth option {
+  font-size: 14px;
+}
+main section.fourth input:focus,
+main section.fourth textarea:focus {
+  text-align: start;
+}
+main section.fourth ::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+}
+main section.fourth select {
+  background: #161616;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+  width: 135px;
+  text-align: start;
+  padding-left: 0.5em;
+  margin-left: 5px;
+}
+main section.fourth select:hover {
+  background: #161616;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+}
+main section.fourth button {
+  width: 295px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #161616;
+  border: none;
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+}
+main section.fourth button:hover {
+  background-color: #000;
+  color: #fff;
+}
+main section.fourth .cbox {
+  display: flex;
+}
+main section.fourth .cbox label {
+  margin-top: 1.1em;
+}
+main section.fourth .cbox p {
+  margin-left: 12px;
+  font-weight: 300;
+  font-size: 14px;
+}
+main section.fourth #Conditions p {
+  margin-left: 20px;
+}
 
 main section.terminosYcondiciones {
   background-color: #fff;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 100px;
-  padding-bottom: 146px; }
-  main section.terminosYcondiciones h3 {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 59px;
-    color: #F6007C; }
-  main section.terminosYcondiciones p {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 21px;
-    color: #161616;
-    margin-top: 0;
-    margin-bottom: 0; }
-  main section.terminosYcondiciones span {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 21px;
-    color: #161616; }
-  main section.terminosYcondiciones ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0; }
-    main section.terminosYcondiciones ul li {
-      font-family: 'Oswald';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 21px;
-      color: #161616;
-      list-style-type: none; }
-
-main .error404 .error {
-  display: flex; }
-  main .error404 .error .columna {
-    width: 100vw;
-    height: 1200px; }
-  main .error404 .error .blanco {
-    background-color: #fff; }
-  main .error404 .error .amarillo {
-    background-color: #f9fb00; }
-  main .error404 .error .celeste {
-    background-color: #02feff; }
-  main .error404 .error .verde {
-    background-color: #01ff00; }
-  main .error404 .error .fucsia {
-    background-color: #fd00fb; }
-  main .error404 .error .rojo {
-    background-color: #fb0102; }
-  main .error404 .error .azul {
-    background-color: #0301fc; }
-
-main .error404 .texto {
-  position: absolute;
-  background-color: #000;
-  width: 100%;
-  top: 40%;
-  height: 22%;
-  display: flex;
-  text-align: start;
-  place-content: center; }
-  main .error404 .texto h3 {
-    color: #fff;
-    font-size: 128px;
-    font-weight: 700;
-    margin-top: 0.2em; }
-  main .error404 .texto h6 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 95px;
-    width: 992px;
-    margin-top: 0.5em;
-    margin-left: 30px; }
+  padding-bottom: 146px;
+}
+main section.terminosYcondiciones h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 59px;
+  color: #f6007c;
+}
+main section.terminosYcondiciones p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #161616;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main section.terminosYcondiciones span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #161616;
+}
+main section.terminosYcondiciones ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+main section.terminosYcondiciones ul li {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #161616;
+  list-style-type: none;
+}
 
 header {
   background-image: url(../assets/bg_home.jpg);
   width: 100%;
   height: 1080px;
   background-size: cover;
-  background-repeat: no-repeat; }
-  header h1 {
-    color: #fff;
-    font-size: 144px;
-    margin-left: 150px;
-    width: 850px;
-    line-height: 130px;
-    margin-top: 150px; }
-  header h2 {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 47px;
-    color: #fff;
-    margin-left: 150px;
-    margin-top: -1em; }
-  header button {
-    width: 383px;
-    height: 50px;
-    margin-left: 150px;
-    background: #F6007C;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: 500;
-    font-size: 24px;
-    border: none;
-    font-family: 'Oswald', sans-serif;
-    margin-top: 25px; }
-    header button a {
-      text-decoration: none;
-      color: #fff; }
+  background-repeat: no-repeat;
+}
+header h1 {
+  color: #fff;
+  font-size: 144px;
+  margin-left: 150px;
+  width: 850px;
+  line-height: 130px;
+  margin-top: 150px;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #fff;
+  margin-left: 150px;
+  margin-top: -1em;
+}
+header button {
+  width: 383px;
+  height: 50px;
+  margin-left: 150px;
+  background: #f6007c;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  margin-top: 25px;
+}
+header button a {
+  text-decoration: none;
+  color: #fff;
+}
 
 footer .todo {
   display: grid;
@@ -472,357 +585,416 @@ footer .todo {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin-top: 100px;
-  margin-left: 150px; }
-  footer .todo .end {
-    margin-left: 2.5em; }
-  footer .todo a {
-    text-decoration: none;
-    color: #fff; }
-  footer .todo .lista {
-    display: flex; }
-  footer .todo ul {
-    margin-top: 0%; }
-    footer .todo ul li {
-      list-style-type: none;
-      color: #fff; }
-    footer .todo ul .title {
-      font-weight: 700;
-      font-size: 16px;
-      color: #F6007C; }
-  footer .todo .derecha p {
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: start; }
+  margin-left: 150px;
+}
+footer .todo .end {
+  margin-left: 2.5em;
+}
+footer .todo a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .todo .lista {
+  display: flex;
+}
+footer .todo ul {
+  margin-top: 0%;
+}
+footer .todo ul li {
+  list-style-type: none;
+  color: #fff;
+}
+footer .todo ul .title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f6007c;
+}
+footer .todo .derecha p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: start;
+}
 
 @media screen and (max-width: 1023px) {
   nav {
-    height: 50px; }
-    nav img {
-      margin-left: 20px;
-      width: 24px;
-      height: auto; }
+    height: 50px;
+  }
+  nav img {
+    margin-left: 20px;
+    width: 24px;
+    height: auto;
+  }
   header {
-    height: 280px; }
-    header h1 {
-      font-size: 48px;
-      width: 300px;
-      margin-left: 20px;
-      line-height: 50px;
-      margin-top: 10px; }
-    header h2 {
-      font-size: 16px;
-      margin-left: 20px;
-      margin-top: -2em; }
-    header button {
-      width: 157px;
-      height: 30px;
-      font-size: 16px;
-      margin-left: 20px;
-      font-family: 'Oswald', sans-serif;
-      margin-top: 0; }
+    height: 280px;
+  }
+  header h1 {
+    font-size: 48px;
+    width: 300px;
+    margin-left: 20px;
+    line-height: 50px;
+    margin-top: 10px;
+  }
+  header h2 {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: -2em;
+  }
+  header button {
+    width: 157px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 0;
+  }
   main {
-    overflow-x: hidden; }
-    main section.first {
-      padding-bottom: 0px; }
-      main section.first .contenedor {
-        display: none; }
-      main section.first .data {
-        display: none; }
-      main section.first .mobile .glider-contain .gliderDos .glider-track {
-        margin-left: 20px;
-        margin-top: 22px;
-        margin-bottom: 0px;
-        width: fit-content !important; }
-      main section.first .mobile .glider-contain .gliderDos #dots {
-        background-color: #f6007c; }
-      main section.first .mobile .glider-contain .gliderDos .title {
-        display: flex;
-        margin-left: 10px; }
-        main section.first .mobile .glider-contain .gliderDos .title img {
-          width: 10px;
-          margin-top: -1em; }
-        main section.first .mobile .glider-contain .gliderDos .title p {
-          margin-top: 0;
-          margin-left: 7px;
-          line-height: 24px; }
-      main section.first .mobile .glider-contain .gliderDos p {
-        font-size: 16px;
-        color: #fff;
-        width: 85%;
-        margin-top: 4px;
-        line-height: 24px;
-        font-weight: 400;
-        margin-left: 10px; }
-    main section.second {
-      background-color: #fff;
-      padding-top: 25px; }
-      main section.second .contenedor {
-        margin-top: 0;
-        padding-top: 0px;
-        margin-left: 20px;
-        margin-right: 20px; }
-        main section.second .contenedor .todo {
-          display: grid;
-          grid-template-rows: 1fr;
-          grid-column-gap: 0px;
-          grid-row-gap: 0px; }
-          main section.second .contenedor .todo .title {
-            display: flex;
-            width: 445px; }
-            main section.second .contenedor .todo .title h3 {
-              font-weight: 700;
-              font-size: 16px;
-              color: #000;
-              margin-left: 7px;
-              margin-top: 0px; }
-            main section.second .contenedor .todo .title img {
-              margin-top: -1em;
-              width: 10px;
-              height: auto; }
-        main section.second .contenedor .sets {
-          margin-top: 3.5em; }
-      main section.second .secondDescription {
-        display: none; }
-      main section.second .glinder-contain {
-        display: none; }
-      main section.second .mobile {
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-bottom: 65px; }
-        main section.second .mobile p {
-          font-size: 16px;
-          margin-top: 1em; }
-        main section.second .mobile button {
-          width: 157px;
-          height: 30px;
-          background: #F6007C;
-          border-radius: 5px;
-          font-weight: 500;
-          font-size: 16px;
-          color: #FFFFFF;
-          border: none;
-          font-family: 'Oswald', sans-serif;
-          margin-top: 2.5em; }
-    main section.third {
-      padding-bottom: 40px; }
-      main section.third .contenedor {
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 0; }
-        main section.third .contenedor .todo {
-          display: grid;
-          grid-template-columns: repeat(1, 1fr);
-          grid-template-rows: 1fr;
-          grid-column-gap: 0px;
-          grid-row-gap: 0px; }
-          main section.third .contenedor .todo .title {
-            display: flex;
-            width: min-content; }
-            main section.third .contenedor .todo .title h3 {
-              font-weight: 700;
-              font-size: 16px;
-              color: #fff;
-              margin-left: 7px;
-              width: 320px;
-              margin-top: 0;
-              margin-bottom: 5px; }
-            main section.third .contenedor .todo .title img {
-              margin-top: -0.3em;
-              width: 10px; }
-      main section.third .indexMainAboutWorkDescription {
-        display: none; }
-      main section.third .mobile p {
-        color: #fff; }
-      main section.third .mobile .boton {
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-        border: none;
-        background: #b9b9b9;
-        margin-right: -6em;
-        margin-left: -6em; }
-      main section.third .mobile #buttonUno {
-        background-color: #f6007c; }
-      main section.third .mobile .botones {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 1em;
-        position: sticky; }
-      main section.third .mobile #contenedorTextosCarruselUno {
-        width: 100%;
-        height: 182px; }
-      main section.third .mobile #textoShow {
-        width: 300px;
-        overflow-x: hidden;
-        margin-left: 1em;
-        color: #fff; }
-      main section.third .mobile .txt {
-        width: 100%;
-        color: #fff; }
-    main section.fourth {
-      background-color: #F6007C; }
-      main section.fourth .contenedor {
-        padding-top: 22px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-bottom: 30px; }
-      main section.fourth .todo {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px; }
-      main section.fourth .title {
-        display: inline-grid; }
-        main section.fourth .title img {
-          width: 10px;
-          height: auto;
-          margin-top: 2em; }
-        main section.fourth .title h3 {
-          font-weight: 700;
-          font-size: 16px;
-          color: #FFFFFF;
-          margin-top: -15px;
-          margin-left: 19px; }
-      main section.fourth .formulario {
-        margin-top: 25px;
-        padding-bottom: 30px;
-        width: 336px;
-        display: grid;
-        justify-items: center;
-        margin-left: 0px;
-        margin-right: auto; }
-        main section.fourth .formulario form {
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 0px;
-          margin-right: 10px;
-          font-size: 16px;
-          line-height: 43px;
-          font-weight: 400; }
-      main section.fourth textarea,
-      main section.fourth input,
-      main section.fourth select {
-        resize: none;
-        height: 21px;
-        background-color: #f6007c;
-        border-color: #000;
-        color: #fff;
-        border-top: 0px;
-        border-left: 0px;
-        border-right: 0px;
-        border-bottom-width: thin;
-        text-align: center; }
-      main section.fourth option {
-        font-size: 14px; }
-      main section.fourth input:focus, main section.fourth textarea:focus {
-        text-align: start; }
-      main section.fourth ::placeholder {
-        color: #fff;
-        font-size: 14px;
-        font-weight: 300;
-        font-family: 'Oswald', sans-serif; }
-      main section.fourth select {
-        background: #161616;
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
-        border-radius: 5px;
-        width: 135px;
-        text-align: start;
-        padding-left: 0.5em;
-        margin-left: 5px; }
-      main section.fourth select:hover {
-        background: #161616;
-        font-family: 'Oswald', sans-serif;
-        border-radius: 5px; }
-      main section.fourth button {
-        width: 159px;
-        height: 28px;
-        background: #FFFFFF;
-        border-radius: 5px;
-        font-weight: 500;
-        font-size: 16px;
-        color: #161616;
-        border: none;
-        margin-top: 10px;
-        font-family: 'Oswald', sans-serif; }
-      main section.fourth .cbox {
-        display: flex; }
-        main section.fourth .cbox label {
-          margin-top: 1.1em; }
-        main section.fourth .cbox p {
-          margin-left: 12px;
-          font-weight: 300;
-          font-size: 14px; }
-        main section.fourth .cbox #cbox {
-          margin-left: 0; }
-      main section.fourth #Conditions p {
-        margin-left: 20px; }
-    main section.terminosYcondiciones {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 10px;
-      padding-bottom: 59px; }
-      main section.terminosYcondiciones h3 {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-        color: #F6007C; }
-      main section.terminosYcondiciones p {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        color: #161616;
-        margin-top: 0;
-        margin-bottom: 0; }
-      main section.terminosYcondiciones span {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        color: #161616; }
-      main section.terminosYcondiciones ul {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0; }
-        main section.terminosYcondiciones ul li {
-          font-family: 'Oswald';
-          font-style: normal;
-          font-weight: 300;
-          font-size: 14px;
-          line-height: 21px;
-          color: #161616;
-          list-style-type: none; }
-    main .error404 .error {
-      display: flex; }
-      main .error404 .error .columna {
-        height: 286px; }
-    main .error404 .texto {
-      width: 100%;
-      top: 25%;
-      height: 10%;
-      display: flex;
-      text-align: start;
-      place-content: center; }
-      main .error404 .texto h3 {
-        font-size: 32px;
-        font-weight: 700;
-        margin-top: 0em; }
-      main .error404 .texto h6 {
-        font-weight: 700;
-        line-height: 24px;
-        font-size: 93%;
-        width: 195px;
-        margin-top: 0.3em;
-        margin-left: 10px; }
+    overflow-x: hidden;
+  }
+  main section.first {
+    padding-bottom: 0px;
+  }
+  main section.first .contenedor {
+    display: none;
+  }
+  main section.first .data {
+    display: none;
+  }
+  main section.first .mobile .glider-contain .gliderDos .glider-track {
+    margin-left: 20px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+    width: fit-content !important;
+  }
+  main section.first .mobile .glider-contain .gliderDos #dots {
+    background-color: #f6007c;
+  }
+  main section.first .mobile .glider-contain .gliderDos .title {
+    display: flex;
+    margin-left: 0px;
+  }
+  main section.first .mobile .glider-contain .gliderDos .title img {
+    width: 10px;
+    margin-top: -3em;
+  }
+  main section.first .mobile .glider-contain .gliderDos .title p {
+    margin-top: 0;
+    margin-left: 7px;
+    line-height: 24px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+  }
+  main section.first .mobile .glider-contain .gliderDos p {
+    font-size: 16px;
+    color: #fff;
+    width: 85%;
+    margin-top: 4px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+
+  main section.second {
+    background-color: #fff;
+    padding-top: 40px;
+  }
+  main section.second .contenedor {
+    margin-top: 0;
+    padding-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  main section.second .contenedor .todo {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main section.second .contenedor .todo .title {
+    display: flex;
+    width: 445px;
+  }
+  main section.second .contenedor .todo .title h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    margin-left: 7px;
+    margin-top: 0px;
+  }
+  main section.second .contenedor .todo .title img {
+    margin-top: -1em;
+    width: 10px;
+    height: auto;
+  }
+  main section.second .contenedor .sets {
+    margin-top: 3.5em;
+  }
+  main section.second .secondDescription {
+    display: none;
+  }
+  main section.second .glinder-contain {
+    display: none;
+  }
+  main section.second .mobile {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 65px;
+  }
+  main section.second .mobile p {
+    font-size: 16px;
+    margin-top: 1em;
+  }
+  main section.second .mobile button {
+    width: 157px;
+    height: 30px;
+    background: #f6007c;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    margin-top: 2.5em;
+  }
+  main section.third {
+    padding-bottom: 40px;
+  }
+  main section.third .contenedor {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  main section.third .contenedor .todo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main section.third .contenedor .todo .title {
+    display: flex;
+    width: min-content;
+  }
+  main section.third .contenedor .todo .title h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 7px;
+    width: 320px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  main section.third .contenedor .todo .title img {
+    margin-top: -0.3em;
+    width: 10px;
+  }
+  main section.third .indexMainAboutWorkDescription {
+    display: none;
+  }
+  main section.third .mobile p {
+    color: #fff;
+  }
+  main section.third .mobile .boton {
+    width: 10px;
+    height: 12px;
+    border-radius: 100%;
+    border: none;
+    background: #b9b9b9;
+    margin-right: -9em;
+    margin-left: -9em;
+  }
+  main section.third .mobile #buttonUno {
+    background-color: #f6007c;
+  }
+  main section.third .mobile .botones {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    position: sticky;
+  }
+  main section.third .mobile #contenedorTextosCarruselUno {
+    width: 100%;
+    height: 182px;
+  }
+  main section.third .mobile #textoShow {
+    width: 300px;
+    overflow-x: hidden;
+    margin-left: 1em;
+    color: #fff;
+  }
+  main section.third .mobile .txt {
+    width: 100%;
+    color: #fff;
+  }
+  main section.fourth {
+    background-color: #f6007c;
+  }
+  main section.fourth .contenedor {
+    padding-top: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+  }
+  main section.fourth .todo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main section.fourth .title {
+    display: inline-grid;
+  }
+  main section.fourth .title img {
+    width: 10px;
+    height: auto;
+    margin-top: 2em;
+  }
+  main section.fourth .title h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: -15px;
+    margin-left: 19px;
+  }
+  main section.fourth .formulario {
+    margin-top: 25px;
+    padding-bottom: 30px;
+    width: 336px;
+    display: grid;
+    justify-items: center;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+  main section.fourth .formulario form {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 43px;
+    font-weight: 400;
+  }
+  main section.fourth textarea,
+  main section.fourth input,
+  main section.fourth select {
+    resize: none;
+    height: 21px;
+    background-color: #f6007c;
+    border-color: #000;
+    color: #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: thin;
+    text-align: center;
+  }
+  main section.fourth option {
+    font-size: 14px;
+  }
+  main section.fourth input:focus,
+  main section.fourth textarea:focus {
+    text-align: start;
+  }
+  main section.fourth ::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+  }
+  main section.fourth select {
+    background: #161616;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    border-radius: 5px;
+    width: 135px;
+    text-align: start;
+    padding-left: 0.5em;
+    margin-left: 5px;
+  }
+  main section.fourth select:hover {
+    background: #161616;
+    font-family: "Oswald", sans-serif;
+    border-radius: 5px;
+  }
+  main section.fourth button {
+    width: 159px;
+    height: 28px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    border: none;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+  main section.fourth .cbox {
+    display: flex;
+  }
+  main section.fourth .cbox label {
+    margin-top: 1.1em;
+  }
+  main section.fourth .cbox p {
+    margin-left: 12px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  main section.fourth .cbox #cbox {
+    margin-left: 0;
+  }
+  main section.fourth #Conditions p {
+    margin-left: 20px;
+  }
+  main section.terminosYcondiciones {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 59px;
+  }
+  main section.terminosYcondiciones h3 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f6007c;
+  }
+  main section.terminosYcondiciones p {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #161616;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  main section.terminosYcondiciones span {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #161616;
+  }
+  main section.terminosYcondiciones ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  main section.terminosYcondiciones ul li {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #161616;
+    list-style-type: none;
+  }
   footer .todo {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -832,717 +1004,904 @@ footer .todo {
     margin-top: 100px;
     font-size: 16px;
     margin-top: 57px;
-    margin-left: 20px; }
-    footer .todo .end {
-      margin-left: 0px; }
-    footer .todo img {
-      width: 100px;
-      height: auto; }
-    footer .todo .lista {
-      display: none; }
-    footer .todo .derecha p {
-      color: #fff;
-      font-weight: 400;
-      font-size: 16px;
-      text-align: start;
-      margin-left: 0px;
-      margin-top: 25px; }
-    footer .todo a {
-      text-decoration: none;
-      color: #fff;
-      font-weight: 300;
-      font-size: 14px;
-      margin-top: 25px; }
-    footer .todo .mobile ul {
-      padding: 0%;
-      margin-top: 22px; }
-      footer .todo .mobile ul li {
-        margin-top: 10px; }
-        footer .todo .mobile ul li img {
-          width: 32px;
-          margin-left: 0px;
-          margin-right: 7px; } }
+    margin-left: 20px;
+  }
+  footer .todo .end {
+    margin-left: 0px;
+  }
+  footer .todo img {
+    width: 100px;
+    height: auto;
+  }
+  footer .todo .lista {
+    display: none;
+  }
+  footer .todo .derecha p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  footer .todo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  footer .todo .mobile ul {
+    padding: 0%;
+    margin-top: 22px;
+  }
+  footer .todo .mobile ul li {
+    margin-top: 10px;
+  }
+  footer .todo .mobile ul li img {
+    width: 32px;
+    margin-left: 0px;
+    margin-right: 7px;
+  }
+}
 
 @media (min-width: 1024px) and (max-width: 1439px) {
   nav {
     height: 80px;
-    width: 100%; }
-    nav img {
-      width: 50px;
-      height: auto;
-      margin-left: 50px; }
+    width: 100%;
+  }
+  nav img {
+    width: 50px;
+    height: auto;
+    margin-left: 50px;
+  }
   header {
     width: 100%;
-    height: 580px; }
-    header h1 {
-      font-size: 96px;
-      margin-left: 50px;
-      width: 570px;
-      line-height: 110px;
-      margin-top: 55px; }
-    header h2 {
-      font-weight: 400;
-      font-size: 24px;
-      color: #fff;
-      margin-left: 50px;
-      margin-top: -2.5em; }
-    header button {
-      width: 216px;
-      height: 30px;
-      margin-left: 50px;
-      font-size: 16px;
-      font-family: 'Oswald', sans-serif; }
+    height: 580px;
+  }
+  header h1 {
+    font-size: 96px;
+    margin-left: 50px;
+    width: 570px;
+    line-height: 110px;
+    margin-top: 55px;
+  }
+  header h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: -2.5em;
+  }
+  header button {
+    width: 216px;
+    height: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+  }
   main {
-    overflow-x: hidden; }
-    main .mobile {
-      display: none; }
-    main section.first {
-      padding-bottom: 90px; }
-      main section.first .contenedor {
-        margin-top: 90px;
-        margin-left: 50px;
-        margin-right: 50px;
-        display: grid; }
-        main section.first .contenedor .todo {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          grid-column-gap: 0px; }
-          main section.first .contenedor .todo .title {
-            width: 306px; }
-            main section.first .contenedor .todo .title h3 {
-              font-size: 40px;
-              font-weight: 700;
-              margin: 0 0 0 10px; }
-            main section.first .contenedor .todo .title img {
-              width: 20px;
-              margin: -101px 0 0 0; }
-          main section.first .contenedor .todo .sets {
-            width: 570px;
-            margin-top: 0; }
-            main section.first .contenedor .todo .sets .titleDescription {
-              width: 100%; }
-              main section.first .contenedor .todo .sets .titleDescription ul {
-                justify-content: space-between; }
-                main section.first .contenedor .todo .sets .titleDescription ul li a {
-                  font-size: 16px; }
-              main section.first .contenedor .todo .sets .titleDescription #textsContainerMainTexts p.txt {
-                width: 570px;
-                margin-top: 16px;
-                font-size: 16px; }
-      main section.first .informacion {
-        margin-left: 50px;
-        margin-right: 50px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 120px;
-        grid-row-gap: 0px;
-        margin-top: 47px; }
-        main section.first .informacion .data {
-          width: 238px; }
-          main section.first .informacion .data h6 {
-            margin-top: 2em;
-            font-size: 24px; }
-          main section.first .informacion .data h5 {
-            font-size: 24px; }
-          main section.first .informacion .data p {
-            font-size: 16px;
-            margin-top: -3em; }
-    main section.second .contenedor {
-      padding-top: 50px;
-      margin-left: 50px;
-      margin-right: 50px;
-      display: grid;
-      margin-top: 0; }
-      main section.second .contenedor .todo {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); }
-        main section.second .contenedor .todo .title {
-          width: 306px;
-          margin-left: 0; }
-          main section.second .contenedor .todo .title h3 {
-            font-size: 40px;
-            font-weight: 700;
-            margin: 0 0 0 10px; }
-          main section.second .contenedor .todo .title img {
-            width: 20px;
-            margin-top: -170px; }
-        main section.second .contenedor .todo .sets {
-          width: 570px;
-          margin-top: 0; }
-          main section.second .contenedor .todo .sets ul {
-            justify-content: space-between;
-            width: 80%; }
-            main section.second .contenedor .todo .sets ul li a {
-              font-size: 16px; }
-          main section.second .contenedor .todo .sets #textsContainerPorfolio {
-            height: 10em; }
-            main section.second .contenedor .todo .sets #textsContainerPorfolio p.txt {
-              width: 575px;
-              margin-top: 30px;
-              font-size: 16px; }
-    main section.second .glinder-contain {
-      margin-left: 50px;
-      margin-right: 50px;
-      padding-bottom: 70px; }
-      main section.second .glinder-contain .gliderFotos .glider-track {
-        width: 2058px !important;
-        margin-left: 20px;
-        margin-top: 0;
-        margin-right: 0px; }
-        main section.second .glinder-contain .gliderFotos .glider-track .imgCarrouselDiv {
-          margin-right: 20px;
-          margin-left: 0px;
-          height: auto;
-          width: 210px; }
-        main section.second .glinder-contain .gliderFotos .glider-track a {
-          width: 220px !important;
-          margin-right: 10px; }
-    main section.second .glider-dot.active {
-      background-color: #f6007c; }
-    main section.third {
-      padding-bottom: 0px; }
-      main section.third .contenedor {
-        margin-top: 90px;
-        margin-left: 50px;
-        margin-right: 50px;
-        display: grid; }
-        main section.third .contenedor .todo {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr); }
-          main section.third .contenedor .todo .title {
-            width: 306px;
-            margin-left: 0; }
-            main section.third .contenedor .todo .title h3 {
-              font-size: 40px;
-              font-weight: 700;
-              margin: 0 0 0 10px;
-              margin-top: 0; }
-            main section.third .contenedor .todo .title img {
-              width: 20px;
-              margin-top: -60px; }
-          main section.third .contenedor .todo .indexMainAboutWorkDescription {
-            width: 570px;
-            margin-top: 0;
-            padding-right: 0; }
-            main section.third .contenedor .todo .indexMainAboutWorkDescription ul {
-              margin-top: 0;
-              justify-content: space-between; }
-              main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a {
-                font-size: 16px; }
-          main section.third .contenedor .todo #textsContainerAboutWork p.txt {
-            width: 570px;
-            margin-top: 40px;
-            font-size: 16px; }
-    main section.fourth {
-      background-color: #F6007C; }
-      main section.fourth .contenedor {
-        padding-top: 85px;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-bottom: 50px; }
-      main section.fourth .todo {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px; }
-      main section.fourth .title {
-        margin-left: 20px;
-        width: 306px; }
-        main section.fourth .title img {
-          width: 24px;
-          height: auto;
-          margin-top: 1em; }
-        main section.fourth .title h3 {
-          font-weight: 700;
-          font-size: 40px;
-          color: #FFFFFF;
-          margin-top: -1.1em;
-          margin-left: 32px; }
-      main section.fourth .formulario {
-        margin-top: 0;
-        padding-bottom: 30px;
-        margin-left: -8em;
-        width: 430px; }
-        main section.fourth .formulario form {
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 20px;
-          margin-right: 10px;
-          font-size: 16px;
-          line-height: 43px;
-          font-weight: 400; }
-      main section.fourth textarea,
-      main section.fourth input,
-      main section.fourth select {
-        resize: none;
-        height: 21px;
-        background-color: #f6007c;
-        border-color: #000;
-        color: #fff;
-        border-top: 0px;
-        border-left: 0px;
-        border-right: 0px;
-        border-bottom-width: thin;
-        text-align: center; }
-      main section.fourth option {
-        font-size: 14px; }
-      main section.fourth input:focus, main section.fourth textarea:focus {
-        text-align: start; }
-      main section.fourth ::placeholder {
-        color: #fff;
-        font-size: 14px;
-        font-weight: 300;
-        font-family: 'Oswald', sans-serif; }
-      main section.fourth select {
-        background: #161616;
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
-        border-radius: 5px;
-        width: 135px;
-        text-align: start;
-        padding-left: 0.5em;
-        margin-left: 5px; }
-      main section.fourth select:hover {
-        background: #161616;
-        font-family: 'Oswald', sans-serif;
-        border-radius: 5px; }
-      main section.fourth button {
-        width: 159px;
-        height: 28px;
-        background: #FFFFFF;
-        border-radius: 5px;
-        font-weight: 500;
-        font-size: 16px;
-        color: #161616;
-        border: none;
-        margin-top: 10px;
-        font-family: 'Oswald', sans-serif; }
-      main section.fourth .cbox {
-        display: flex; }
-        main section.fourth .cbox label {
-          margin-top: 1.1em; }
-        main section.fourth .cbox p {
-          margin-left: 12px;
-          font-weight: 300;
-          font-size: 14px; }
-      main section.fourth #Conditions p {
-        margin-left: 20px; }
-    main section.terminosYcondiciones {
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 10px;
-      padding-bottom: 59px; }
-      main section.terminosYcondiciones h3 {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 59px;
-        color: #F6007C; }
-      main section.terminosYcondiciones p {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        color: #161616;
-        margin-top: 0;
-        margin-bottom: 0; }
-      main section.terminosYcondiciones span {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        color: #161616; }
-      main section.terminosYcondiciones ul {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0; }
-        main section.terminosYcondiciones ul li {
-          font-family: 'Oswald';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 21px;
-          color: #161616;
-          list-style-type: none; }
-    main .error404 .error {
-      display: flex; }
-      main .error404 .error .columna {
-        height: 783px; }
-    main .error404 .texto {
-      width: 100%;
-      top: 50vh;
-      height: 20%;
-      display: flex;
-      text-align: start;
-      place-content: center; }
-      main .error404 .texto h3 {
-        font-size: 96px;
-        font-weight: 700;
-        margin-top: -0.1em; }
-      main .error404 .texto h6 {
-        font-weight: 700;
-        line-height: 59px;
-        font-size: 40px;
-        width: 487px;
-        margin-top: 0.3em;
-        margin-left: 30px; }
+    overflow-x: hidden;
+  }
+  main .mobile {
+    display: none;
+  }
+  main section.first {
+    padding-bottom: 90px;
+  }
+  main section.first .contenedor {
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+  }
+  main section.first .contenedor .todo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+  }
+  main section.first .contenedor .todo .title {
+    width: 306px;
+  }
+  main section.first .contenedor .todo .title h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+  }
+  main section.first .contenedor .todo .title img {
+    width: 20px;
+    margin: -101px 0 0 0;
+  }
+  main section.first .contenedor .todo .sets {
+    width: 570px;
+    margin-top: 0;
+  }
+  main section.first .contenedor .todo .sets .titleDescription {
+    width: 100%;
+  }
+  main section.first .contenedor .todo .sets .titleDescription ul {
+    justify-content: space-between;
+  }
+  main section.first .contenedor .todo .sets .titleDescription ul li a {
+    font-size: 16px;
+  }
+  main
+    section.first
+    .contenedor
+    .todo
+    .sets
+    .titleDescription
+    #textsContainerMainTexts
+    p.txt {
+    width: 570px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  main section.first .informacion {
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 120px;
+    grid-row-gap: 0px;
+    margin-top: 47px;
+  }
+  main section.first .informacion .data {
+    width: 238px;
+  }
+  main section.first .informacion .data h6 {
+    margin-top: 2em;
+    font-size: 24px;
+  }
+  main section.first .informacion .data h5 {
+    font-size: 24px;
+  }
+  main section.first .informacion .data p {
+    font-size: 16px;
+    margin-top: -3em;
+  }
+  main section.second .contenedor {
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    margin-top: 0;
+  }
+  main section.second .contenedor .todo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main section.second .contenedor .todo .title {
+    width: 306px;
+    margin-left: 0;
+  }
+  main section.second .contenedor .todo .title h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+  }
+  main section.second .contenedor .todo .title img {
+    width: 20px;
+    margin-top: -170px;
+  }
+  main section.second .contenedor .todo .sets {
+    width: 570px;
+    margin-top: 0;
+  }
+  main section.second .contenedor .todo .sets ul {
+    justify-content: space-between;
+    width: 80%;
+  }
+  main section.second .contenedor .todo .sets ul li a {
+    font-size: 16px;
+  }
+  main section.second .contenedor .todo .sets #textsContainerPorfolio {
+    height: 10em;
+  }
+  main section.second .contenedor .todo .sets #textsContainerPorfolio p.txt {
+    width: 575px;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  main section.second .glinder-contain {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 70px;
+  }
+  main section.second .glinder-contain .gliderFotos .glider-track {
+    width: 2058px !important;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-right: 0px;
+  }
+  main
+    section.second
+    .glinder-contain
+    .gliderFotos
+    .glider-track
+    .imgCarrouselDiv {
+    margin-right: 20px;
+    margin-left: 0px;
+    height: auto;
+    width: 210px;
+  }
+  main section.second .glinder-contain .gliderFotos .glider-track a {
+    width: 220px !important;
+    margin-right: 10px;
+  }
+  main section.second .glider-dot.active {
+    background-color: #f6007c;
+  }
+  main section.third {
+    padding-bottom: 0px;
+  }
+  main section.third .contenedor {
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+  }
+  main section.third .contenedor .todo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main section.third .contenedor .todo .title {
+    width: 306px;
+    margin-left: 0;
+  }
+  main section.third .contenedor .todo .title h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+    margin-top: 0;
+  }
+  main section.third .contenedor .todo .title img {
+    width: 20px;
+    margin-top: -60px;
+  }
+  main section.third .contenedor .todo .indexMainAboutWorkDescription {
+    width: 570px;
+    margin-top: 0;
+    padding-right: 0;
+  }
+  main section.third .contenedor .todo .indexMainAboutWorkDescription ul {
+    margin-top: 0;
+    justify-content: space-between;
+  }
+  main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a {
+    font-size: 16px;
+  }
+  main section.third .contenedor .todo #textsContainerAboutWork p.txt {
+    width: 570px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  main section.fourth {
+    background-color: #f6007c;
+  }
+  main section.fourth .contenedor {
+    padding-top: 85px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+  }
+  main section.fourth .todo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main section.fourth .title {
+    margin-left: 20px;
+    width: 306px;
+  }
+  main section.fourth .title img {
+    width: 24px;
+    height: auto;
+    margin-top: 1em;
+  }
+  main section.fourth .title h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: -1em;
+    margin-left: 32px;
+  }
+  main section.fourth .formulario {
+    margin-top: 0;
+    padding-bottom: 30px;
+    margin-left: -8em;
+    width: 430px;
+  }
+  main section.fourth .formulario form {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 43px;
+    font-weight: 400;
+  }
+  main section.fourth textarea,
+  main section.fourth input,
+  main section.fourth select {
+    resize: none;
+    height: 21px;
+    background-color: #f6007c;
+    border-color: #000;
+    color: #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: thin;
+    text-align: center;
+  }
+  main section.fourth option {
+    font-size: 14px;
+  }
+  main section.fourth input:focus,
+  main section.fourth textarea:focus {
+    text-align: start;
+  }
+  main section.fourth ::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+  }
+  main section.fourth select {
+    background: #161616;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    border-radius: 5px;
+    width: 135px;
+    text-align: start;
+    padding-left: 0.5em;
+    margin-left: 5px;
+  }
+  main section.fourth select:hover {
+    background: #161616;
+    font-family: "Oswald", sans-serif;
+    border-radius: 5px;
+  }
+  main section.fourth button {
+    width: 159px;
+    height: 28px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    border: none;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+  main section.fourth .cbox {
+    display: flex;
+  }
+  main section.fourth .cbox label {
+    margin-top: 1.1em;
+  }
+  main section.fourth .cbox p {
+    margin-left: 12px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  main section.fourth #Conditions p {
+    margin-left: 20px;
+  }
+  main section.terminosYcondiciones {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 59px;
+  }
+  main section.terminosYcondiciones h3 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    color: #f6007c;
+  }
+  main section.terminosYcondiciones p {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  main section.terminosYcondiciones span {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+  }
+  main section.terminosYcondiciones ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  main section.terminosYcondiciones ul li {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+    list-style-type: none;
+  }
   footer .todo {
-    margin-left: 50px; }
-    footer .todo .derecha {
-      margin-left: 0; }
+    margin-left: 50px;
+  }
+  footer .todo .derecha {
+    margin-left: 0;
+  }
   footer .end {
-    margin-top: 100px; }
+    margin-top: 100px;
+  }
   footer img {
     width: 200px;
-    margin-left: 0px; }
+    margin-left: 0px;
+  }
   footer a {
     font-weight: 300;
-    font-size: 14px; }
+    font-size: 14px;
+  }
   footer ul li {
     font-size: 16px;
-    margin-top: 6px; }
-    footer ul li img {
-      width: 24px;
-      margin-right: 13px;
-      margin-top: 10px; }
+    margin-top: 6px;
+  }
+  footer ul li img {
+    width: 24px;
+    margin-right: 13px;
+    margin-top: 10px;
+  }
   footer .mobile {
-    display: none; } }
+    display: none;
+  }
+}
 
 @media (min-width: 1440px) and (max-width: 1919px) {
   header {
     width: 100%;
-    height: 885px; }
-    header h1 {
-      font-weight: 700;
-      font-size: 128px;
-      margin-left: 100px;
-      width: 800px;
-      margin-top: 180px;
-      line-height: 130px; }
-    header h2 {
-      font-weight: 400;
-      font-size: 32px;
-      margin-left: 100px; }
-    header button {
-      width: 295px;
-      height: 40px;
-      font-weight: 500;
-      font-size: 24px;
-      margin-left: 100px;
-      font-family: 'Oswald', sans-serif; }
+    height: 885px;
+  }
+  header h1 {
+    font-weight: 700;
+    font-size: 128px;
+    margin-left: 100px;
+    width: 800px;
+    margin-top: 180px;
+    line-height: 130px;
+  }
+  header h2 {
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 100px;
+  }
+  header button {
+    width: 295px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 100px;
+    font-family: "Oswald", sans-serif;
+  }
   nav {
     height: 100px;
-    width: 100%; }
-    nav img {
-      width: 50px;
-      height: auto;
-      margin-left: 100px; }
+    width: 100%;
+  }
+  nav img {
+    width: 50px;
+    height: auto;
+    margin-left: 100px;
+  }
   main {
-    overflow-x: hidden; }
-    main .mobile {
-      display: none; }
-    main section.first {
-      padding-bottom: 80px; }
-      main section.first .contenedor {
-        margin-top: 100px;
-        margin-left: 100px;
-        margin-right: 100px; }
-        main section.first .contenedor .todo {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          grid-template-rows: 1fr;
-          grid-column-gap: 119px;
-          grid-row-gap: 0px; }
-          main section.first .contenedor .todo .title h3 {
-            font-size: 64px; }
-          main section.first .contenedor .todo .title img {
-            width: 26px; }
-          main section.first .contenedor .todo .sets {
-            width: 750px; }
-            main section.first .contenedor .todo .sets .titleDescription ul {
-              width: 716px; }
-              main section.first .contenedor .todo .sets .titleDescription ul li {
-                margin-right: 60px; }
-                main section.first .contenedor .todo .sets .titleDescription ul li a {
-                  font-size: 24px; }
-            main section.first .contenedor .todo .sets .titleDescription #textsContainerMainTexts {
-              padding-right: 0; }
-              main section.first .contenedor .todo .sets .titleDescription #textsContainerMainTexts p.txt {
-                font-size: 16px;
-                width: 750px;
-                margin-top: 0px; }
-      main section.first .informacion {
-        margin-left: 100px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 119px;
-        grid-row-gap: 0px;
-        margin-left: 205px;
-        margin-right: 90px; }
-        main section.first .informacion .data h5 {
-          font-size: 24px; }
-        main section.first .informacion .data h6 {
-          font-size: 24px;
-          margin-top: 2em;
-          margin-bottom: 0.5em; }
-        main section.first .informacion .data p {
-          font-size: 16px;
-          margin-top: 9px;
-          width: 319px; }
-    main section.second {
-      padding-top: 20px; }
-      main section.second .contenedor {
-        margin-top: 0;
-        margin-left: 100px;
-        margin-right: 100px; }
-        main section.second .contenedor .todo .title {
-          margin-left: 0; }
-          main section.second .contenedor .todo .title h3 {
-            font-size: 64px; }
-          main section.second .contenedor .todo .title img {
-            width: 26px;
-            margin-top: -13em; }
-        main section.second .contenedor .todo .sets .secondDescription {
-          width: 716px;
-          padding-right: 0; }
-          main section.second .contenedor .todo .sets .secondDescription ul {
-            width: 716px; }
-            main section.second .contenedor .todo .sets .secondDescription ul li a {
-              font-size: 24px; }
-          main section.second .contenedor .todo .sets .secondDescription #textsContainerPorfolio {
-            height: 14em;
-            padding-right: 0; }
-            main section.second .contenedor .todo .sets .secondDescription #textsContainerPorfolio p.txt {
-              font-size: 16px;
-              width: 716px; }
-      main section.second .glinder-contain {
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-bottom: 70px; }
-        main section.second .glinder-contain .gliderFotos .glider-track {
-          width: 3923px !important;
-          margin-left: 52px;
-          margin-top: 0;
-          margin-right: 0px; }
-          main section.second .glinder-contain .gliderFotos .glider-track .imgCarrouselDiv {
-            margin-right: 20px;
-            margin-left: 0px;
-            height: auto;
-            width: 380px; }
-          main section.second .glinder-contain .gliderFotos .glider-track a {
-            width: 450px !important;
-            margin-right: 250px; }
-      main section.second .glider-dot.active {
-        background-color: #f6007c; }
-    main section.third .contenedor {
-      margin-top: 100px;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-bottom: 100px; }
-      main section.third .contenedor .todo .title {
-        margin-left: 0; }
-        main section.third .contenedor .todo .title h3 {
-          font-size: 64px; }
-        main section.third .contenedor .todo .title img {
-          width: 26px;
-          margin-top: -5.5em; }
-      main section.third .contenedor .todo .indexMainAboutWorkDescription {
-        width: 716px;
-        padding-right: 0; }
-        main section.third .contenedor .todo .indexMainAboutWorkDescription ul {
-          width: 716px; }
-          main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a {
-            font-size: 24px; }
-        main section.third .contenedor .todo .indexMainAboutWorkDescription #textsContainerAboutWork p.txt {
-          font-size: 16px;
-          width: 716px; }
-    main section.fourth {
-      background-color: #F6007C; }
-      main section.fourth .contenedor {
-        padding-top: 95px;
-        margin-left: 100px;
-        margin-right: 100px;
-        padding-bottom: 80px; }
-      main section.fourth .todo {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px; }
-      main section.fourth .title {
-        width: 306px; }
-        main section.fourth .title img {
-          width: 27px;
-          height: auto;
-          margin-top: 1em; }
-        main section.fourth .title h3 {
-          font-weight: 700;
-          font-size: 64px;
-          color: #FFFFFF;
-          margin-top: -1.1em;
-          margin-left: 38px; }
-      main section.fourth .formulario {
-        margin-top: 0;
-        padding-bottom: 30px;
-        margin-left: -8em;
-        width: 715px; }
-        main section.fourth .formulario form {
-          display: flex;
-          flex-direction: column;
-          color: #fff;
-          margin-left: 20px;
-          margin-right: 10px;
-          font-size: 16px;
-          line-height: 43px;
-          font-weight: 400; }
-      main section.fourth textarea,
-      main section.fourth input,
-      main section.fourth select {
-        resize: none;
-        height: 21px;
-        background-color: #f6007c;
-        border-color: #000;
-        color: #fff;
-        border-top: 0px;
-        border-left: 0px;
-        border-right: 0px;
-        border-bottom-width: thin;
-        text-align: center; }
-      main section.fourth option {
-        font-size: 14px; }
-      main section.fourth input:focus, main section.fourth textarea:focus {
-        text-align: start; }
-      main section.fourth ::placeholder {
-        color: #fff;
-        font-size: 14px;
-        font-weight: 300;
-        font-family: 'Oswald', sans-serif; }
-      main section.fourth select {
-        background: #161616;
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
-        border-radius: 5px;
-        width: 135px;
-        text-align: start;
-        padding-left: 0.5em;
-        margin-left: 5px; }
-      main section.fourth select:hover {
-        background: #161616;
-        font-family: 'Oswald', sans-serif;
-        border-radius: 5px; }
-      main section.fourth button {
-        width: 295px;
-        height: 40px;
-        background: #FFFFFF;
-        border-radius: 5px;
-        font-weight: 500;
-        font-size: 16px;
-        color: #161616;
-        border: none;
-        margin-top: 10px;
-        font-family: 'Oswald', sans-serif; }
-      main section.fourth .cbox {
-        display: flex; }
-        main section.fourth .cbox label {
-          margin-top: 1.1em; }
-        main section.fourth .cbox p {
-          margin-left: 12px;
-          font-weight: 300;
-          font-size: 14px; }
-      main section.fourth #Conditions p {
-        margin-left: 20px; }
-    main section.terminosYcondiciones {
-      padding-left: 100px;
-      padding-right: 100px;
-      padding-top: 100px;
-      padding-bottom: 59px; }
-      main section.terminosYcondiciones h3 {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 59px;
-        color: #F6007C; }
-      main section.terminosYcondiciones p {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        color: #161616;
-        margin-top: 0;
-        margin-bottom: 0; }
-      main section.terminosYcondiciones span {
-        font-family: 'Oswald';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        color: #161616; }
-      main section.terminosYcondiciones ul {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0; }
-        main section.terminosYcondiciones ul li {
-          font-family: 'Oswald';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 21px;
-          color: #161616;
-          list-style-type: none; }
-    main .error404 .error {
-      display: flex; }
-      main .error404 .error .columna {
-        height: 1000px; }
-    main .error404 .texto {
-      width: 100%;
-      top: 50%;
-      height: 28%; }
-      main .error404 .texto h3 {
-        font-size: 128px;
-        font-weight: 700;
-        margin-top: 0em; }
-      main .error404 .texto h6 {
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 95px;
-        width: 780px;
-        margin-top: 0em;
-        margin-left: 30px; }
+    overflow-x: hidden;
+  }
+  main .mobile {
+    display: none;
+  }
+  main section.first {
+    padding-bottom: 80px;
+  }
+  main section.first .contenedor {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  main section.first .contenedor .todo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 119px;
+    grid-row-gap: 0px;
+  }
+  main section.first .contenedor .todo .title h3 {
+    font-size: 64px;
+  }
+  main section.first .contenedor .todo .title img {
+    width: 26px;
+  }
+  main section.first .contenedor .todo .sets {
+    width: 750px;
+  }
+  main section.first .contenedor .todo .sets .titleDescription ul {
+    width: 716px;
+  }
+  main section.first .contenedor .todo .sets .titleDescription ul li {
+    margin-right: 60px;
+  }
+  main section.first .contenedor .todo .sets .titleDescription ul li a {
+    font-size: 24px;
+  }
+  main
+    section.first
+    .contenedor
+    .todo
+    .sets
+    .titleDescription
+    #textsContainerMainTexts {
+    padding-right: 0;
+  }
+  main
+    section.first
+    .contenedor
+    .todo
+    .sets
+    .titleDescription
+    #textsContainerMainTexts
+    p.txt {
+    font-size: 16px;
+    width: 750px;
+    margin-top: 0px;
+  }
+  main section.first .informacion {
+    margin-left: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 119px;
+    grid-row-gap: 0px;
+    margin-left: 205px;
+    margin-right: 90px;
+  }
+  main section.first .informacion .data h5 {
+    font-size: 24px;
+  }
+  main section.first .informacion .data h6 {
+    font-size: 24px;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+  main section.first .informacion .data p {
+    font-size: 16px;
+    margin-top: 9px;
+    width: 319px;
+  }
+  main section.second {
+    padding-top: 20px;
+  }
+  main section.second .contenedor {
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  main section.second .contenedor .todo .title {
+    margin-left: 0;
+  }
+  main section.second .contenedor .todo .title h3 {
+    font-size: 64px;
+  }
+  main section.second .contenedor .todo .title img {
+    width: 26px;
+    margin-top: -13em;
+  }
+  main section.second .contenedor .todo .sets .secondDescription {
+    width: 716px;
+    padding-right: 0;
+  }
+  main section.second .contenedor .todo .sets .secondDescription ul {
+    width: 716px;
+  }
+  main section.second .contenedor .todo .sets .secondDescription ul li a {
+    font-size: 24px;
+  }
+  main
+    section.second
+    .contenedor
+    .todo
+    .sets
+    .secondDescription
+    #textsContainerPorfolio {
+    height: 14em;
+    padding-right: 0;
+  }
+  main
+    section.second
+    .contenedor
+    .todo
+    .sets
+    .secondDescription
+    #textsContainerPorfolio
+    p.txt {
+    font-size: 16px;
+    width: 716px;
+  }
+  main section.second .glinder-contain {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 70px;
+  }
+  main section.second .glinder-contain .gliderFotos .glider-track {
+    width: 3923px !important;
+    margin-left: 52px;
+    margin-top: 0;
+    margin-right: 0px;
+  }
+  main
+    section.second
+    .glinder-contain
+    .gliderFotos
+    .glider-track
+    .imgCarrouselDiv {
+    margin-right: 20px;
+    margin-left: 0px;
+    height: auto;
+    width: 380px;
+  }
+  main section.second .glinder-contain .gliderFotos .glider-track a {
+    width: 450px !important;
+    margin-right: 250px;
+  }
+  main section.second .glider-dot.active {
+    background-color: #f6007c;
+  }
+  main section.third .contenedor {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+  main section.third .contenedor .todo .title {
+    margin-left: 0;
+  }
+  main section.third .contenedor .todo .title h3 {
+    font-size: 64px;
+  }
+  main section.third .contenedor .todo .title img {
+    width: 26px;
+    margin-top: -5.5em;
+  }
+  main section.third .contenedor .todo .indexMainAboutWorkDescription {
+    width: 716px;
+    padding-right: 0;
+  }
+  main section.third .contenedor .todo .indexMainAboutWorkDescription ul {
+    width: 716px;
+  }
+  main section.third .contenedor .todo .indexMainAboutWorkDescription ul li a {
+    font-size: 24px;
+  }
+  main
+    section.third
+    .contenedor
+    .todo
+    .indexMainAboutWorkDescription
+    #textsContainerAboutWork
+    p.txt {
+    font-size: 16px;
+    width: 716px;
+  }
+  main section.fourth {
+    background-color: #f6007c;
+  }
+  main section.fourth .contenedor {
+    padding-top: 95px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 80px;
+  }
+  main section.fourth .todo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main section.fourth .title {
+    width: 306px;
+  }
+  main section.fourth .title img {
+    width: 27px;
+    height: auto;
+    margin-top: 1em;
+  }
+  main section.fourth .title h3 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: -1em;
+    margin-left: 38px;
+  }
+  main section.fourth .formulario {
+    margin-top: 0;
+    padding-bottom: 30px;
+    margin-left: -8em;
+    width: 715px;
+  }
+  main section.fourth .formulario form {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 43px;
+    font-weight: 400;
+  }
+  main section.fourth textarea,
+  main section.fourth input,
+  main section.fourth select {
+    resize: none;
+    height: 21px;
+    background-color: #f6007c;
+    border-color: #000;
+    color: #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: thin;
+    text-align: center;
+  }
+  main section.fourth option {
+    font-size: 14px;
+  }
+  main section.fourth input:focus,
+  main section.fourth textarea:focus {
+    text-align: start;
+  }
+  main section.fourth ::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+  }
+  main section.fourth select {
+    background: #161616;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    border-radius: 5px;
+    width: 135px;
+    text-align: start;
+    padding-left: 0.5em;
+    margin-left: 5px;
+  }
+  main section.fourth select:hover {
+    background: #161616;
+    font-family: "Oswald", sans-serif;
+    border-radius: 5px;
+  }
+  main section.fourth button {
+    width: 295px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    border: none;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+  main section.fourth .cbox {
+    display: flex;
+  }
+  main section.fourth .cbox label {
+    margin-top: 1.1em;
+  }
+  main section.fourth .cbox p {
+    margin-left: 12px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  main section.fourth #Conditions p {
+    margin-left: 20px;
+  }
+  main section.terminosYcondiciones {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 59px;
+  }
+  main section.terminosYcondiciones h3 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 59px;
+    color: #f6007c;
+  }
+  main section.terminosYcondiciones p {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  main section.terminosYcondiciones span {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+  }
+  main section.terminosYcondiciones ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  main section.terminosYcondiciones ul li {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+    list-style-type: none;
+  }
   footer .todo {
-    margin-left: 100px; }
+    margin-left: 100px;
+  }
   footer .end {
-    margin-top: 125px; }
+    margin-top: 125px;
+  }
   footer img {
-    width: 296px; }
+    width: 296px;
+  }
   footer a {
     font-weight: 300;
-    font-size: 14px; }
+    font-size: 14px;
+  }
   footer ul li {
-    font-size: 16px; }
-    footer ul li img {
-      width: 24px;
-      margin-right: 13px;
-      margin-top: 10px; }
+    font-size: 16px;
+  }
+  footer ul li img {
+    width: 24px;
+    margin-right: 13px;
+    margin-top: 10px;
+  }
   footer .mobile {
-    display: none; } }
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 1920px) {
   main .mobile {
-    display: none; }
+    display: none;
+  }
   footer .mobile {
-    display: none; } }
+    display: none;
+  }
+}
 
 body {
   background-color: #000;
-  font-family: 'Oswald', sans-serif;
-  margin: 0%; }
+  font-family: "Oswald", sans-serif;
+  margin: 0%;
+}
 
 button.primario:hover {
-  background: #C90066; }
+  background: #c90066;
+}

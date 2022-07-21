@@ -676,7 +676,7 @@ footer .todo .derecha p {
   }
   main section.first .mobile .glider-contain .gliderDos .title img {
     width: 10px;
-    margin-top: -2em;
+    margin-top: -1.5em;
   }
   main section.first .mobile .glider-contain .gliderDos .title p {
     margin-top: 0;
@@ -684,21 +684,23 @@ footer .todo .derecha p {
     line-height: 24px;
     font-family: "Oswald", sans-serif;
     font-weight: 700;
+    margin-bottom: 20px;
   }
   main section.first .mobile .glider-contain .gliderDos p {
     font-size: 16px;
     color: #fff;
     width: 85%;
-    margin-top: 4px;
+    margin-top: 0px;
     line-height: 24px;
     font-weight: 400;
     margin-left: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 51px;
+    margin-right: 21px;
   }
 
   main section.second {
     background-color: #fff;
-    padding-top: 40px;
+    padding-top: 21px;
   }
   main section.second .contenedor {
     margin-top: 0;
@@ -722,9 +724,10 @@ footer .todo .derecha p {
     color: #000;
     margin-left: 7px;
     margin-top: 0px;
+    margin-bottom: 6px;
   }
   main section.second .contenedor .todo .title img {
-    margin-top: -1em;
+    margin-top: -0.5em;
     width: 10px;
     height: auto;
   }
@@ -740,7 +743,7 @@ footer .todo .derecha p {
   main section.second .mobile {
     margin-left: 20px;
     margin-right: 20px;
-    padding-bottom: 65px;
+    padding-bottom: 64px;
   }
   main section.second .mobile p {
     font-size: 16px;
@@ -759,10 +762,10 @@ footer .todo .derecha p {
     margin-top: 2.5em;
   }
   main section.third {
-    padding-bottom: 40px;
+    padding-bottom: 24px;
   }
   main section.third .contenedor {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 0;
@@ -810,7 +813,7 @@ footer .todo .derecha p {
   main section.third .mobile .botones {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1em;
+    margin-top: 0em;
     position: sticky;
     max-width: 161px;
     margin-left: 30%;
@@ -819,7 +822,7 @@ footer .todo .derecha p {
   }
   main section.third .mobile #contenedorTextosCarruselUno {
     width: 100%;
-    height: 182px;
+    height: 173px;
   }
   main section.third .mobile #textoShow {
     width: 90%;
@@ -835,10 +838,10 @@ footer .todo .derecha p {
     background-color: #f6007c;
   }
   main section.fourth .contenedor {
-    padding-top: 22px;
+    padding-top: 24px;
     margin-left: 20px;
     margin-right: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
   main section.fourth .todo {
     display: grid;
@@ -853,17 +856,18 @@ footer .todo .derecha p {
   main section.fourth .title img {
     width: 10px;
     height: auto;
-    margin-top: 2em;
+    margin-top: 0.3em;
   }
   main section.fourth .title h3 {
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
-    margin-top: -15px;
-    margin-left: 19px;
+    margin-top: -17px;
+    margin-left: 18px;
+    margin-bottom: 0px;
   }
   main section.fourth .formulario {
-    margin-top: 25px;
+    margin-top: 24px;
     padding-bottom: 30px;
     width: 336px;
     display: grid;
